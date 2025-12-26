@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Sithcoin</title>
+  <style>
+    :root {
+      --bg: #071730; /* dark blue */
+    }
+    html,body {
+      height: 100%;
+      margin: 0;
+      background: linear-gradient(180deg,var(--bg), #021227);
+      font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+      color: #e6f0ff;
+      -webkit-font-smoothing:antialiased;
+      -moz-osx-font-smoothing:grayscale;
+    }
+
+    .wrap {
+      min-height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 2rem;
+      box-sizing: border-box;
+      flex-direction: column;
+      gap: 1.25rem;
+    }
+
+    img.sithcoin {
+      max-width: 90%;
+      width: 360px;
+      height: auto;
+      border-radius: 12px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.6), 0 2px 6px rgba(0,0,0,0.6);
+      background: rgba(255,255,255,0.02);
+      padding: 8px;
+    }
+
+    .caption {
+      font-size: .95rem;
+      opacity: .85;
+    }
+
+    a.repo-link {
+      color: #9cc9ff;
+      text-decoration: none;
+    }
+    a.repo-link:hover { text-decoration: underline; }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <!-- Image loaded from the repository commit (stable link) -->
+    <img class="sithcoin" alt="sithcoin" src="https://raw.githubusercontent.com/MoNKeYBRaiN2026/BRaiNGame/843d289e676f7618a891d0df502ad041e22c26fe/sithcoin.png" />
+    <div class="caption">
+      Image: <a class="repo-link" href="https://github.com/MoNKeYBRaiN2026/BRaiNGame/blob/843d289e676f7618a891d0df502ad041e22c26fe/sithcoin.png" target="_blank" rel="noopener">sithcoin.png</a>
+    </div>
+  </div>
+</body>
+</html>
